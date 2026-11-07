@@ -1,0 +1,16 @@
+{
+  "name": "wechat-mcp-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server and Claude Code channel for wechat-cli",
+  "scripts": {
+    "start": "node server.ts"
+  },
+  "engines": {
+    "node": ">=23.6"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2"
+  }
+}
